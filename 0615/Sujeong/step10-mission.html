@@ -48,9 +48,9 @@
 
     <script>
         function print_data(no) {
-            document.getElementById("id1").value = person_all['p'+no].Name;
-            document.getElementById("id2").value = person_all['p'+no].password;
-            document.getElementById("id3").value = person_all['p'+no].repeat;
+            document.getElementById("id1").value = person_all[no].Name;
+            document.getElementById("id2").value = person_all[no].Email;
+            document.getElementById("id3").value = person_all[no].Password;
         }
 
         let person_all = {
@@ -70,23 +70,18 @@
                 "Password": 3333
             }
         };
-        let v = 'p'+'2';
-
-        console.log(person_all[v]);
 
         var person = {
             "Name": "홍길동",
-            "email": "1234@naver.com",
+            "Email": "1234@naver.com",
             "Password": 1234
         };
 
-        document.getElementById("id1").value = person.Email;
-        document.getElementById("id2").value = person.Password;
-        document.getElementById("id3").value = person.Repeat;
+        document.getElementById("id1").value = person.Name;
+        document.getElementById("id2").value = person.Email;
+        document.getElementById("id3").value = person.Password;
 
     </script>
-    </form>
-
 </body>
 
 </html>
