@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0615 mission</title>
+    <style>
+        button {
+            color: azure;
+            background-color: rgb(7, 95, 19);
+            width: 10%;
+        }
+
+        h1 {
+            color: rgb(17, 54, 22)
+        }
+
+        b {
+            margin: auto;
+            color: rgb(0, 97, 16);
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <!-- <form action="action_page.php"> -->
+    <div class="container">
+        <center>
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr style="border: solid 2px rgb(117, 117, 117); width: 50%;">
+
+            <b>Name <input type="text" id="id1"></b><br>
+            <b>Email <input type="text" id="id2"></b><br>
+            <b>Password <input type="text" id="id3"></b><br>
+
+            <hr style="border: solid 2px rgb(117, 117, 117); width: 50%;">
+
+            <button value="p1" onclick="print_data(this.value)">이진영</button>
+            <button value="p2" onclick="print_data(this.value)">장수정</button>
+            <button value="p3" onclick="print_data(this.value)">정주영B</button>
+        </center>
+    </div>
+
+    <script>
+        function print_data(no) {
+            document.getElementById("id1").value = person_all['p'+no].Name;
+            document.getElementById("id2").value = person_all['p'+no].password;
+            document.getElementById("id3").value = person_all['p'+no].repeat;
+        }
+
+        let person_all = {
+            "p1": {
+                "Name": "이진영",
+                "Email": "1234@naver.com",
+                "Password": 1111
+            },
+            "p2": {
+                "Name": "장수정",
+                "Email": "1234@naver.com",
+                "Password": 2222
+            },
+            "p3": {
+                "Name": "정주영B",
+                "Email": "1234@naver.com",
+                "Password": 3333
+            }
+        };
+        let v = 'p'+'2';
+
+        console.log(person_all[v]);
+
+        var person = {
+            "Name": "홍길동",
+            "email": "1234@naver.com",
+            "Password": 1234
+        };
+
+        document.getElementById("id1").value = person.Email;
+        document.getElementById("id2").value = person.Password;
+        document.getElementById("id3").value = person.Repeat;
+
+    </script>
+    </form>
+
+</body>
+
+</html>
