@@ -41,4 +41,4 @@ INSERT INTO runes (r_id,r_name,r_title) VALUES
 INSERT INTO runes (r_id,r_name,r_title) VALUES
 (17, '만능의 돌', '영감');
 
-commit
+commit;
