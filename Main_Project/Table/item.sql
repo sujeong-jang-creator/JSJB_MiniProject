@@ -115,3 +115,130 @@ INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (67, '최후의 속삭임', '서사', 1450);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (68, '군단의 방패', '서사', 1500);
+
+
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(69, '그림자 검', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(70, '독사의 송곳니', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(71, '밤의 끝자락', '전설', 2900);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(72, '요우무의 유령검', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(73, '핏빛 칼날', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(74, '세릴다의 원한', '전설', 3200);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(75, '화공 펑크 사슬검', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(76, '수호 천사', '전설', 2800);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(77, '맬모셔스의 아귀', '전설', 2800);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(78, '선체분쇄기', '전설', 2800);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(79, '마나무네', '전설', 2900);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(80, '은빛 여명', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(81, '스테락의 도전', '전설', 3100);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(82, '마법사의 최후', '전설', 3100);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(83, '죽음의 무도', '전설', 3100);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(84, '칠흑의 양날 도끼', '전설', 3100);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(85, '몰락한 왕의 검', '전설', 3200);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(86, '굶주린 히드라', '전설', 3300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(87, '거대한 히드라', '전설', 3300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(88, '메자이의 영혼약탈자', '전설', 1600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(89, '모렐로노미콘', '전설', 2500);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(90, '밴시의 장막', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(91, '존야의 모래시계', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(92, '공허의 지팡이', '전설', 2700);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(93, '대천사의 지팡이', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(94, '리치베인', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(95, '내셔의 이빨', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(96, '라일라이의 수정홀', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(97, '지평선의 초점', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(98, '우주의 추진력', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(99, '악마의 포옹', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(100, '라바돈의 죽음모자', '전설', 3600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(101, '필멸자의 운명', '전설', 2500);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(102, '고속 연사포', '전설', 2500);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(103, '유령 무희', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(104, '루난의 허리케인', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(105, '폭풍갈퀴', '전설', 2700);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(106, '구인수의 격노검', '전설', 2600);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(107, '정수 약탈자', '전설', 2800);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(108, '도미닉 경의 인사', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(109, '헤르메스의 시미터', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(110, '징수의 총', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(111, '무한의 대검', '전설', 3400);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(112, '피바라기', '전설', 3400);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(113, '나보리 신속검', '전설', 3400);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(114, '구원', '전설', 2300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(115, '기사의 맹세', '전설', 2300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(116, '미카엘의 축복', '전설', 2300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(117, '불타는 향로', '전설', 2300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(118, '경계의 와드석', '전설', 1100);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(119, '흐르는 물의 지팡이', '전설', 2300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(120, '화학공학 부패기', '전설', 2300);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(121, '지크의 융합', '전설', 2400);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(122, '얼어붙은 심장', '전설', 2500);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(123, '심연의 가면', '전설', 2700);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(124, '가시 갑옷', '전설', 2700);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(125, '란두인의 예언', '전설', 2700);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(126, '정령의 형상', '전설', 2900);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(127, '망자의 갑옷', '전설', 2900);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(128, '대자연의 힘', '전설', 2900);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(129, '워모그의 갑옷', '전설', 3000);
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
+(130, '가고일의 돌갑옷', '전설', 3300);
+
