@@ -127,7 +127,7 @@ INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (59, '톱날 단검', '서사', 1100);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
-(60, '감시하는 와드석' 1100);
+(60, '감시하는 와드석', '서사', 1100);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (61, '티아맷', '서사', 1200);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
@@ -323,7 +323,7 @@ INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (157, '와드 토템', '소모품', 0);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
-(158, '예언자의 렌즈', '소모품', 0;)
+(158, '예언자의 렌즈', '소모품', 0);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (159, '망원형 개조', '소모품', 0);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
