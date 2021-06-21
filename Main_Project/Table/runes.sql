@@ -40,3 +40,5 @@ INSERT INTO runes (r_id,r_name,r_title) VALUES
 (16, '봉인풀린 주문서', '영감');
 INSERT INTO runes (r_id,r_name,r_title) VALUES
 (17, '만능의 돌', '영감');
+
+commit
