@@ -13,6 +13,7 @@
 <h3> &nbsp;:heavy_check_mark: Role</p>
 <h6> &nbsp; 1. diagrams 제작</p>
      &nbsp; 2. Github 및 협업환경 설정</p>
+     &nbsp; 3. 데이터 삽입 보조</p>
 <h3> &nbsp;:heavy_check_mark: GitHub LINK</p>
 <a href = "https://github.com/sujeong-jang-creator"><h6>&nbsp;&nbsp;: Sujeong's GitHub LINK</a></details>  
 
@@ -30,7 +31,7 @@
 <h2> :calendar: Progress by date
 &nbsp;&nbsp;&nbsp;<h3><details><summary> 1일차 [210621] </summary></p>
 &nbsp;&nbsp;&nbsp;1. Table 제작 : 'champions','runes', 'items', 'spell' Table 제작</p>
-&nbsp;&nbsp;&nbsp;2. 데이터 수집 및 삽입 : 'champions' Table의 155개 데이터</p>
+&nbsp;&nbsp;&nbsp;2. 데이터 수집 및 삽입</p>
 &nbsp;&nbsp;&nbsp;3. diagram 제작</p>
      
 </details> 
