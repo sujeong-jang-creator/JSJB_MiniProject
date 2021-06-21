@@ -5,7 +5,7 @@ CREATE TABLE champions(
   c_tags varchar(40) NOT NULL,
   PRIMARY KEY (c_id)
 );
-
+/*2009*/
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (1, '누누와 월럼프', '소년과 설인', '서포터, 전사');
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
@@ -92,3 +92,52 @@ INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (41, '우디르', '정령 주술사', '전사 탱커');
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (42, '니달리', '야성의 사냥꾼', '암살자, 전사');
+/*2010*/
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(43, '뽀삐', '망치의 수호자', '탱커, 전사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(44, '그라가스', '술취한 난동꾼', '전사, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(45, '판테온', '불굴의 창', '전사, 암살자');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(46, '모데카이저', '강철의 망령', '전사, 보호막');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(47, '이즈리얼', '방탕한 탐험가', '원거리, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(48, '쉔', '황혼의 눈', '탱커, 전사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(49, '케넨', '폭풍의 심장', '마법사, 원거리');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(50, '가렌', '데마시아의 힘', '전사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(51, '아칼리', '그림자의 권', '암살자, 은신');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(52, '말자하', '공허의 예언자', '마법사, 암살자');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(53, '올라프', '광전사', '전사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(54, '코그모', '심연의 아귀', '원거리, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(55, '신 짜오', '데마시아의 호위무사', '전사, 암살자');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(56, '블라디미르', '진홍빛 사신', '마법사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(57, '갈리오', '위대한 석상', '마법사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(58, '우르곳', '살상 병기', '전사, 원거리');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(59, '미스 포츈', '현상금 사냥꾼', '원거리, 둔화');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(60, '소나', '현의 명인', '서포터, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(61, '스웨인', '전략의 대가', '마법사, 전사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(62, '럭스', '광명의 소녀', '마법사, 서포터');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(63, '르블랑', '환술사', '암살자, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(64, '이렐리아', '칼날의 의지', '전사, 암살자');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(65, '트런들', '트롤 왕', '전사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(66, '카시오페아', '독사의 포옹', '마법사, 둔화');
