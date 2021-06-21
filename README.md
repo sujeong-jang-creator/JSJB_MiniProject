@@ -43,7 +43,7 @@
      
 <!--다이어그램 칸--> 
 <h2>:diamond_shape_with_a_dot_inside: Diagram</p>
-<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/cf88cfbe30a58b8f4a2e78b2ce42a144c31983bc/Main_Project/diagram/lol_diagram.png" />
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/292c1eeac926151ba55d4dace6fef747cc24b4ea/Main_Project/diagram/diagram.png" />
 
 <br>
 
