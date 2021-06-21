@@ -1,3 +1,4 @@
+drop table items;
 create table items (
   i_id int,
   i_name varchar2(40),
@@ -31,35 +32,35 @@ INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (11, '도란의 검', '시작', 450); 
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (12, '수확의 낫', '시작', 450);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (13, '원기 회복의 구슬', '기본', 150);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (14, '요정의 부적', '기본', 125);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items(i_id, i_name, i_level, i_price) VALUES
 (15, '천 갑옷', '기본', 300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (16, '단검', '기본', 300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (17, '사파이어 수정', '기본', 350);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (18, '롱소드', '기본', 350);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (19, '루비 수정', '기본', 400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (20, '증폭의 고서', '기본', 435);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (21, '마법무효화의 망토', '기본', 450);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (22, '민첩성의 망토', '기본', 600);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (23, '초시계', '기본', 650);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (24, '방출의 마법봉', '기본', 850);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (25, '곡괭이', '기본', 875);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (26, '쓸데없이 큰 지팡이', '기본', 1250);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (27, 'B.F. 대검', '기본', 1300);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (28, '바미의 불씨', '서사', 1100);
@@ -267,87 +268,87 @@ INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (129, '워모그의 갑옷', '전설', 3000);
 INSERT INTO items (i_id, i_name, i_level, i_price) VALUES 
 (130, '가고일의 돌갑옷', '전설', 3300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (131, '돌풍', '신화', 3400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (132, '크라켄 학살자', '신화', 3400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (133, '불멸의 철갑궁', '신화', 3400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (134, '서리불꽃 건틀릿', '신화', 2800);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (135, '터보 화공 탱크', '신화', 2800);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (136, '태양불꽃 방패', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (137, '드락사르의 황혼검', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (138, '월식', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (139, '자객의 발톱', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (140, '리안드리의 고뇌', '신화', 3400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (141, '루덴의 폭풍', '신화', 3400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (142, '만년서리', '신화', 3400);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (143, '마법공학 로켓 벨트', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (144, '균열 생성기', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (145, '밤의 수확자', '신화', 3200);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (146, '선혈 포식자', '신화', 3300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (147, '발걸음 분쇄기', '신화', 3300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (148, '신성한 파괴자', '신화', 3300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (149, '삼위일체', '신화', 3333);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (150, '슈렐리아의 군가', '신화', 2500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (151, '강철의 솔라리 펜던트', '신화', 2500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (152, '제국의 명령', '신화', 2500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (153, '월석 재생기', '신화', 2500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (154, '체력 물약', '소모품', 50);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (155, '충전형 물약', '소모품', 150);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (156, '부패 물약', '소모품', 500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (157, '와드 토템', '소모품', 0);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (158, '예언자의 렌즈', '소모품', 0;)
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (159, '망원형 개조', '소모품', 0);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (160, '마법의 영약', '소모품', 500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (161, '분노의 영약', '소모품', 500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (162, '강철의 영약', '소모품', 500);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (163, '제어와드', '소모품', 75);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (164, '장화', '장화', 300);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (165, '신속의 장화', '장화', 900);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (166, '명석함의 아이오니아 장화', '장화', 950);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (167, '기동력의 장화', '장화', 1000);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (168, '광전사의 군화', '장화', 1100);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (169, '마법사의 신발', '장화', 1100);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (170, '판금 장화', '장화', 1100);
-INSERT INTO (i_id, i_name, i_level, i_price) VALUES
+INSERT INTO items (i_id, i_name, i_level, i_price) VALUES
 (171, '헤르메스의 발걸음', '장화', 1100);
 
 commit;
