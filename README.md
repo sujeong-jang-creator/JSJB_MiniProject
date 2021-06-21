@@ -32,6 +32,10 @@
 &nbsp;&nbsp;&nbsp;<h3><details><summary> 1일차 [210621] </summary></p>
 &nbsp;&nbsp;&nbsp;1. Table 제작 : 'champions','runes', 'items', 'spell' Table 제작</p>
 &nbsp;&nbsp;&nbsp;2. 데이터 수집 및 삽입</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 'champions' Table의 155개 데이터</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 'items' Table의 171개 데이터</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 'runes' Table의 17개 데이터</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 'spell' Table의 10개 데이터</p>
 &nbsp;&nbsp;&nbsp;3. diagram 제작</p>
      
 </details> 
