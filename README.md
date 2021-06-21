@@ -25,9 +25,18 @@
 <a href = "https://github.com/rnaqpddl123"><h6>&nbsp;&nbsp;: Juyeong B's GitHub LINK</a></details> 
 
 <br>
+
+<!-- 날짜별 진행과정-->
+<h2> :calendar: Progress by date
+&nbsp;&nbsp;&nbsp;<h3><details><summary> 1일차 [210621] </summary></p>
+&nbsp;&nbsp;&nbsp;1. Table 제작 : 'champions' Table 제작</p>
+&nbsp;&nbsp;&nbsp;2. 데이터 수집 및 삽입 : 'champions' Table의 155개 데이터</p>
+     
+</details> 
+<br>
      
 <!--다이어그램 칸--> 
-<h2>:radio_button: Diagram</p>
+<h2>:diamond_shape_with_a_dot_inside: Diagram</p>
 <img src="" />
 
 <br>
