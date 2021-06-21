@@ -141,3 +141,32 @@ INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (65, '트런들', '트롤 왕', '전사, 탱커');
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (66, '카시오페아', '독사의 포옹', '마법사, 둔화');
+/*2011*/
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(67, '케이틀린', '필트오버의 보안관', '원거리, 탈출');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(68, '레넥톤', '사막의 도살자', '전사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(69, '카르마', '깨우친 자', '마법사, 서포터');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(70, '마오카이', '뒤틀린 나무 정령', '탱커, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(71, '자르반 4세', '데마시아의 귀감', '전사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(72, '녹턴', '영원한 악몽', '암살자, 전사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(73, '리 신', '눈 먼 수도승', '전사, 암살자');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(74, '브랜드', '타오르는 복수', '마법사, 기절');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(75, '럼블', '기계 악동', '전사, 마법사');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(76, '베인', '어둠 사냥꾼', '원거리, 암살자');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(77, '오리아나', '시계태엽 소녀', '마법사, 서포터');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(78, '요릭', '망자의 길잡이', '전사, 탱커');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(79, '레오나', '여명의 빛', '탱커, 서포터');
+INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
+(80, '오공', '원숭이 왕', '전사, 탱커');
