@@ -349,3 +349,5 @@ INSERT INTO (i_id, i_name, i_level, i_price) VALUES
 (170, '판금 장화', '장화', 1100);
 INSERT INTO (i_id, i_name, i_level, i_price) VALUES
 (171, '헤르메스의 발걸음', '장화', 1100);
+
+commit;
