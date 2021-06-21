@@ -1,8 +1,8 @@
 CREATE TABLE champions(
-  c_id number(6) NOT NULL,
-  c_name varchar(140) NOT NULL,
-  c_title varchar(180) NOT NULL,
-  c_tags varchar(200) NOT NULL,
+  c_id number(4) NOT NULL,
+  c_name varchar(40) NOT NULL,
+  c_title varchar(40) NOT NULL,
+  c_tags varchar(40) NOT NULL,
   PRIMARY KEY (c_id)
 );
 
