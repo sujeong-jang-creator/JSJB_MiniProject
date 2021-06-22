@@ -330,3 +330,5 @@ INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (154, '비에고', '몰락한 왕', '암살자, 전사');
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (155, '그웬', '신성한 재봉사', '전사, 마법사');
+
+commit;
