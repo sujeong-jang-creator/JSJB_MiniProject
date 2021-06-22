@@ -338,3 +338,5 @@ INSERT INTO champions (c_id, r_id, i_id, s_id, s_id2, c_name, c_title, c_tags) V
 (155, 5, 144, 5, 10, '그웬', '신성한 재봉사', '전사, 마법사');
 
 commit;
+
+//수정
