@@ -260,7 +260,7 @@ INSERT INTO champions (c_id, r_id, i_id, s_id, s_id2, c_name, c_title, c_tags) V
 INSERT INTO champions (c_id, r_id, i_id, s_id, s_id2, c_name, c_title, c_tags) VALUES
 (120, 5, 147, 5, 10, '나르', '잃어버린 고리', '전사, 탱커');
 INSERT INTO champions (c_id, r_id, i_id, s_id, s_id2, c_name, c_title, c_tags) VALUES
-(121, 5, 140, 10, 5, '아지르', 9, 141, 5, 1, '사막의 황제', '마법사, 원거리');
+(121, 9, 141, 5, 1, '아지르', '사막의 황제', '마법사, 원거리');
 INSERT INTO champions (c_id, r_id, i_id, s_id, s_id2, c_name, c_title, c_tags) VALUES
 (122, 4, 131, 5, 7, '칼리스타', '복수의 화신', '원거리');
 INSERT INTO champions (c_id, r_id, i_id, s_id, s_id2, c_name, c_title, c_tags) VALUES
