@@ -5,7 +5,7 @@ app=Flask(__name__)
 
 @app.route("/", methods=["get"])
 def get():
-    return render_template("lol_index.html")   
+    return render_template("index.html")   
 
 @app.route('/lolcp', methods=["post"])
 def lollist():

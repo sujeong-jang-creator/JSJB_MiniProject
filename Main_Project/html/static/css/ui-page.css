@@ -1,26 +1,32 @@
 .header	{
 	display: flex;
 	align-items: center;
-	height: 80px;
+	height: 170px;
 	padding: 0 1rem;
 }
 
 .primary {
-	padding: 1rem;
+	padding: 2rem;
+	background: rgb(255, 255, 255);
+	height: 500px;
 }
 .secondary {
 	padding: 1rem;
 }
 .secondary-a {
-	background: white;
+	background: #116CA8;
+
 }
+
 .secondary-b {
-	color: white;
-	background: #666;
+	background: #1A3235;
+	/* background:url(../images/right_back.jpg); */
+	background-position: center;
+	background-size: 100% 100%;
 }
 .footer {
 	padding: 1rem;
-	border-top: 1px solid lightgray;
+	border-top: 1px solid rgb(7, 11, 70);
 	text-align: center;
 }
 

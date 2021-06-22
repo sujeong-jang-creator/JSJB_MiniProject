@@ -1,11 +1,21 @@
 /* menu */
+.header { 
+	justify-content: space-between;
+	background-color: #0094f5;
+}
+
 .menu {
 	display: flex;
 }
+
+.primary {
+	text-align: center;
+}
+
 .menu-item {
-	/* flex-grow: 1; */
+	flex-grow: 1;
 	width: 25%;
-	background: blue;
+	background: #0094f5;
 
 }
 .menu-link {
@@ -13,30 +23,9 @@
 	padding: 1em;
 	font-size: 1.2rem;
 	font-weight: bold;
-	color: #555;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	text-align: center;
-}
-
-/* card list */
-.card-item {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 2rem;
-}
-.card-image {
-	height: 0;
-	padding-bottom: 60%;
-	background-color: lightgray;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.card-desc {
-	flex: 1 1 auto;
-	padding: 1em;
-	background: white;
 }
 
 @media (min-width: 600px) {
