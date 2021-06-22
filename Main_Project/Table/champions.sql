@@ -245,7 +245,7 @@ INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (116, '징크스', '난폭한 말괄량이', '원거리');
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
-(117, '야스오', '용서받지 못한 자' '전사, 암살자');
+(117, '야스오', '용서받지 못한 자', '전사, 암살자');
 /*2014*/
 INSERT INTO champions (c_id, c_name, c_title, c_tags) VALUES
 (118, '벨코즈', '공허의 눈', '마법사');
