@@ -7,7 +7,7 @@
 .primary {
 	padding: 2rem;
 	background: rgb(255, 255, 255);
-	height: 500px;
+	height: 90%;
 }
 .secondary {
 	padding: 1rem;
@@ -28,7 +28,6 @@
 	border-top: 1px solid rgb(7, 11, 70);
 	text-align: center;
 }
-
 
 @media (min-width: 1024px) {
 	.page {
