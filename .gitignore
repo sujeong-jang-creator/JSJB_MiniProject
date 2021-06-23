@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -136,3 +137,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+=======
+
+Main_Project/html/__pycache__/dao.cpython-38.pyc
+>>>>>>> Sujeong
