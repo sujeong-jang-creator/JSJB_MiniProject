@@ -3,10 +3,13 @@
 	justify-content: space-between;
 	background-color: #0094f5;
 }
+#logo_img {
+	padding-top: 30px;
+}
 
 .menu {
 	display: flex;
-	height: 70px;
+	/* height: 70px; */
 }
 
 .primary {
@@ -15,13 +18,13 @@
 
 .menu-item {
 	flex-grow: 1;
-	width: 25%;
+	width: 50%;
 	background: #0094f5;
 
 }
 .menu-link {
 	display: block;
-	padding: 1em;
+	/* padding: 1em; */
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
