@@ -12,9 +12,9 @@ def index():
 def search():
     return render_template("index.html")
 
-@app.route("/chart", methods=["get"])
+@app.route("/info", methods=["get"])
 def chart():
-    return render_template("chart.html") 
+    return render_template("info.html") 
 
 
 @app.route('/lolcp', methods=["post"])
