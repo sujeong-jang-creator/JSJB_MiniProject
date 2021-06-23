@@ -6,6 +6,7 @@
 
 .menu {
 	display: flex;
+	height: 70px;
 }
 
 .primary {
