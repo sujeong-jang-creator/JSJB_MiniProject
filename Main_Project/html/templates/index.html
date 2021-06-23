@@ -6,12 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> 너도 할수있다! LOL 전력분석! </title>
-	<link rel="stylesheet" href="../static/css/default.css">
-	<link rel="stylesheet" href="../static/css/ui-page.css">
-	<link rel="stylesheet" href="../static/css/ui.css">
-	<link rel="stylesheet" href="{{url_for('static', filename='ui-page.css')}}">
-	<link rel="stylesheet" href="{{url_for('static', filename='default.css')}}">
-	<link rel="stylesheet" href="{{url_for('static', filename='ui.css')}}">
+
+	<link rel="stylesheet" href="{{url_for('static', filename='css/ui-page.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/default.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/ui.css')}}">
 </head>
 
 <body>
@@ -27,6 +25,7 @@
 		<!-- menu -->
 		<ul class="menu">
 			<li class="menu-item">
+<<<<<<< Updated upstream
 				<a href="index.html" class="menu-link">Search</a>
 			</li>
 			<li class="menu-item">
@@ -34,9 +33,12 @@
 			</li>
 			<li class="menu-item">
 				<a href="#" class="menu-link">Guide</a>
+=======
+				<a href="search" class="menu-link">Search</a>
+>>>>>>> Stashed changes
 			</li>
 			<li class="menu-item">
-				<a href="#" class="menu-link">Contact</a>
+				<a href="chart" class="menu-link">Chart</a>
 			</li>
 		</ul>
 
@@ -44,17 +46,26 @@
 		<aside class="secondary secondary-a">
 			<a href="https://www.op.gg/" target="_black"><img src="../static/images/opgg.png" width="200"></a>
 			<a href="https://playdata.io/" target="_black"><img src="../static/images/playdata.png" width="200"></a>
-			<a href="https://github.com/sujeong-jang-creator/JSJB_MiniProject" target="_black"><img src="../static/images/플젝깃허브.png" width="200"></a>
-			<a href="https://na.leagueoflegends.com/ko-kr/" target="_black"><img src="../static/images/공식홈페이지.png" width="200"></a>
+			<a href="https://github.com/sujeong-jang-creator/JSJB_MiniProject" target="_black"><img
+					src="../static/images/플젝깃허브.png" width="200"></a>
+			<a href="https://na.leagueoflegends.com/ko-kr/" target="_black"><img src="../static/images/공식홈페이지.png"
+					width="200"></a>
 		</aside>
 
 		<section class="primary">
 
-			<!-- <form action=""> -->
+			<div id="viewtest" style="display:block;">
+
 				<img src="../static/images/검정글씨로고.png" width="100"><br>
 
+				<iframe width="560" height="315"
+					src="https://www.youtube.com/embed/IzMnCv_lPxI?rel=0&amp;autoplay=1&mute=1&amp;loop=1;playlist=IzMnCv_lPxI"
+					frameborder="0"></iframe><br><br>
+
 				챔피언이름 : <input type="text" id="c_name"><br>
-				<button onclick="lolchamp()" alert="성공"><font color="blue"> 챔피언 번호로 검색</font></button>
+				<button onclick="lolchamp()" alert="성공">
+					<font color="blue"> 챔피언 번호로 검색</font>
+				</button>
 
 				<br><br><br>
 				<div id="demo_champ"></div>
@@ -62,13 +73,14 @@
 				<div id="demo_runes"></div>
 				<div id="demo_spell"></div>
 
-			<!-- </form> -->
+			</div>
 		</section>
 
 		<!-- secondary-b -->
 		<aside class="secondary secondary-b">
 			<a href="https://github.com/dlwlsdudo1" target="_black"><img src="../static/images/진영.png" width="300"></a>
-			<a href="https://github.com/sujeong-jang-creator" target="_black"><img src="../static/images/수정.png" width="300"></a>
+			<a href="https://github.com/sujeong-jang-creator" target="_black"><img src="../static/images/수정.png"
+					width="300"></a>
 			<a href="https://github.com/rnaqpddl123" target="_black"><img src="../static/images/주영.png" width="300"></a>
 		</aside>
 		<!-- </div> -->
