@@ -11,6 +11,27 @@
     <link rel="stylesheet" href="{{url_for('static', filename='css/default.css')}}">
     <link rel="stylesheet" href="{{url_for('static', filename='css/ui.css')}}">
 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['리그 오브 레전드', 49.67],
+                ['서든어택', 8.45],
+                ['배틀그라운드', 7.25],
+                ['피파온라인4', 4.95],
+                ['기타', 29.68]
+            ]);
+            var options = {
+                title: '한국 게임시장 점유율'
+            };
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+        }
+
+    </script>
 </head>
 
 <body>
@@ -43,12 +64,15 @@
                     width="200"></a>
         </aside>
 
+        <!-- primary-->
         <section class="primary">
             <iframe width="560" height="315"
                 src="https://www.youtube.com/embed/IzMnCv_lPxI?rel=0&amp;autoplay=1&mute=1&amp;loop=1;playlist=IzMnCv_lPxI"
                 frameborder="0"></iframe><br><br>
+            <div id="piechart" style="width: 700px;"></div>
         </section>
-        
+
+
         <!-- secondary-b -->
         <aside class="secondary secondary-b">
             <a href="https://github.com/dlwlsdudo1" target="_black"><img src="../static/images/진영.png" width="300"></a>
