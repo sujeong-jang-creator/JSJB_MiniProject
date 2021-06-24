@@ -44,7 +44,14 @@
 <h3> &nbsp;:heavy_check_mark: GitHub LINK</p>
 <a href = "https://github.com/rnaqpddl123"><h6>&nbsp;&nbsp;: Juyeong B's GitHub LINK</a></details> 
 
-<br>
+<br><br><br>
+
+<h2> :eyes: 주제선정</p>
+&nbsp; : 세명 모두 LOL게임을 좋아함:blue_heart:</p>
+&nbsp; LOL(League of Legend)은 라이엣 게임즈가 개발 및 서비스 중인 MOBA 장르게임이다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4>(MOBA : 플레이어가 하나의 캐릭터를 선택하여 정해진 맵에서 레벨과 스킬을 올리고 아이템을 갖춰 영웅을 강화시켜 상대방 진영을 파괴하는 실시간 공성 게임 장르)</p>	
+
+<br><br><br>
 
 <!-- 날짜별 진행과정-->
 <h2> :calendar: Progress by date
@@ -68,17 +75,23 @@
 &nbsp;&nbsp;&nbsp;<h3><details><summary> 3일차 [210623 / D-1] </summary></p>
 &nbsp;&nbsp;&nbsp;1. detail 코드 제작</p>
 &nbsp;&nbsp;&nbsp;2. detail 디자인 수정</p>
-&nbsp;&nbsp;&nbsp;3. 발표준비</p>
-
-
 </details> 
-<br>
+
+
+&nbsp;&nbsp;&nbsp;<h3><details><summary> 4일차 [210624 / D-DAY] </summary></p>
+&nbsp;&nbsp;&nbsp;1. 패치노트 바로가기 기능추가</p>
+&nbsp;&nbsp;&nbsp;2. 발표준비</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 발표구성 짜기</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 발표자료 추가</p>
+</details>
+
+<br><br><br>
      
 <!--다이어그램 칸--> 
 <h2>:diamond_shape_with_a_dot_inside: Diagram</p>
 <img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/a02ea4e966e1b970fdc715d19d09d065398fb58e/Main_Project/diagram/diagram.png" />
 
-<br>
+<br><br><br>
 
 <!--코드 칸-->
 <h2>:computer: Code</p>
@@ -619,11 +632,91 @@ button {
 
 </details></details>
 
-<br>
+<br><br>
 
 <!-- 실행결과--><!-- 실행결과--><!-- 실행결과--><!-- 실행결과--><!-- 실행결과-->
 <details><summary>:ok_woman: 실행결과</summary>
+	
+<br>
+	
 <img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%8B%A4%ED%96%891.JPG?raw=true"/>
 <img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%8B%A4%ED%96%892.JPG?raw=true"/>
 <img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%8B%A4%ED%96%893.JPG?raw=true"/>
 </details>
+
+
+<br><br>
+
+<details><summary>:rage: 어려웠던 점</summary>
+<br>
+<details><summary>No_1</summary>
+<br>
+<p>- 내용</p> 
+&nbsp;&nbsp;: 검색 결과에 따른 이미지 파일을 불러오는 코드 오류. (약 6시간을 고민함)</p>
+<br>
+<p>- 해결</p>
+&nbsp;&nbsp;: 'jinja2' 템플릿 엔진이 읽을 수 있는 코드형식으로 입력 한 것을 html이 읽을 수 있는 형식으로 변환.</p>
+<br>
+<p>- 느낀점 </p>
+&nbsp;&nbsp;: 처음에 시도한 것이 무조건 정답이 아니다. 틀에 박히지 않은 시선으로 계속 코드를 바꿔보자!</p>
+</details>
+
+<br><br>
+
+<details><summary>No_2</summary>
+<br>
+<p>- 내용 </p>
+&nbsp;&nbsp;: querystring를 보내는 과정에서 공백(' ')을 넣어서 app.py에서 데이터를 인식하지 못함. (약 4시간을 고민함)</p>
+<br>
+<p>- 해결 </p>
+&nbsp;&nbsp; : 공백을 지움.</p>
+<p>- 느낀점 </p>
+&nbsp;&nbsp; : 처음에 시도한 것이 무조건 정답이 아니다. 틀에 박히지 않은 시선으로 계속 코드를 바꿔보자!</p>
+</details>
+
+<br><br>
+	
+<details><summary>No_3</summary>
+<br>
+<p>- 내용 </p> 
+&nbsp;&nbsp; : 입력 할 데이터가 너무 많음 (table value 약 400개, image data 약 200개)</p>
+<p>- 해결</p>
+&nbsp;&nbsp;: 각자 part를 분배하여 도란도란 수다를 떨며 입력했다. </p>
+<p>- 느낀점 </p>
+&nbsp;&nbsp;: '데이터 자동화'는 정말 필요한 것이구나!</p>
+</details>
+
+<br><br>
+	
+<details><summary>No_4</summary>
+<br>
+<p>- 내용 </p> 
+&nbsp;&nbsp;:  동기 방식으로 페이지 이동시 not found error. app.py 에서 html 연동을 거는 과정오류.  </p>
+<p>- 해결 </p>
+&nbsp;&nbsp;: @app.route('/경로') 형식인데 flask 사용이 미숙해서 경로 설정을 잘못 함.</p>
+<p>- 느낀점 </p> 
+&nbsp;&nbsp;: 리뷰를 잘하자! 이해를 못했다면 그냥 넘어가지 말고 꼭 알고 넘어가자!</p>
+<br>
+<p> app.py </p>
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/apppy%EC%98%A4%EB%A5%98.JPG?raw=true" />
+<br>
+<p> index.html </p>
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/index%EC%98%A4%EB%A5%98.JPG?raw=true" />
+</details>
+
+<br><br>
+	
+<details><summary>No_5</summary>
+<br>
+<p>- 내용</p>
+&nbsp;&nbsp;1. github branch 이용중 완전 거대한 conflict가 나서 멘탈이 나감.</p>
+&nbsp;&nbsp;2. css에 대한 감이 잡히지 않아서 사용하기 어려움.</p>
+<p>- 해결</p> 
+&nbsp;&nbsp;1. 갓예진님께서 이전 파일을 최대한 복구해주심.</p>
+&nbsp;&nbsp;2. 성규님께서 css 기본 구조 템플릿을 빌려주며 css와 html구조에 대해 전반적인 설명을 해주셨음.</p>
+&nbsp;&nbsp;&nbsp;듣고 나니 3일 밤낮의 노가다를 뛰며 구조를 이해하게 됨.</p>
+<p>- 느낀점 : 똑똑한 사람들과 친하게 지내자! 인맥은 중요하다!</p>
+</details>
+
+
+
