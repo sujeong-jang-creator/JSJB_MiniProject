@@ -1,14 +1,13 @@
 .header	{
 	display: flex;
 	align-items: center;
-	height: 170px;
 	padding: 0 1rem;
 }
 
 .primary {
 	padding: 2rem;
 	background: rgb(255, 255, 255);
-	height: 500px;
+	height: 90%;
 }
 .secondary {
 	padding: 1rem;
@@ -30,7 +29,6 @@
 	text-align: center;
 }
 
-
 @media (min-width: 1024px) {
 	.page {
 		display: flex;
@@ -41,6 +39,7 @@
 	}
 	.menu {
 		width: 100%;
+		height: 50px;
 	}
 	.primary {
 		order: 2;

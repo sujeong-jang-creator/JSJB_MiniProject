@@ -1,11 +1,21 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect
+from flask import current_app as current_app
 from dao import EmpDAO
 
 app=Flask(__name__)
 
 @app.route("/", methods=["get"])
-def get():
-    return render_template("index.html")   
+def index():
+    return render_template("index.html") 
+
+@app.route("/search", methods=["get"])
+def search():
+    return render_template("index.html")
+
+@app.route("/info", methods=["get"])
+def chart():
+    return render_template("info.html") 
+
 
 @app.route('/lolcp', methods=["post"])
 def lollist():

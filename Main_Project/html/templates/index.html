@@ -6,12 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> 너도 할수있다! LOL 전력분석! </title>
-	<link rel="stylesheet" href="../static/css/default.css">
-	<link rel="stylesheet" href="../static/css/ui-page.css">
-	<link rel="stylesheet" href="../static/css/ui.css">
-	<link rel="stylesheet" href="{{url_for('static', filename='ui-page.css')}}">
-	<link rel="stylesheet" href="{{url_for('static', filename='default.css')}}">
-	<link rel="stylesheet" href="{{url_for('static', filename='ui.css')}}">
+
+	<link rel="stylesheet" href="{{url_for('static', filename='css/ui-page.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/default.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/ui.css')}}">
 </head>
 
 <body>
@@ -20,23 +18,17 @@
 		<!-- header -->
 		<header class="header">
 			<img src="../static/images/name_logo.png" width="100">
-			<img src="../static/images/logo2.png" width="150">
+			<img id='logo_img' src="../static/images/logo2.png" width="100px">
 			<img src="../static/images/공백.png" width="150">
 		</header>
 
 		<!-- menu -->
 		<ul class="menu">
 			<li class="menu-item">
-				<a href="/index.html" class="menu-link">Search</a>
-			</li>
-			<li class="/chart.html">
-				<!-- <a href="http://127.0.0.1:5500/html/templates/chart.html" class="menu-link">Chart</a> -->
+				<a href="search" class="menu-link">Search</a>
 			</li>
 			<li class="menu-item">
-				<a href="#" class="menu-link">Guide</a>
-			</li>
-			<li class="menu-item">
-				<a href="#" class="menu-link">Contact</a>
+				<a href="info" class="menu-link">Info</a>
 			</li>
 		</ul>
 
@@ -44,31 +36,52 @@
 		<aside class="secondary secondary-a">
 			<a href="https://www.op.gg/" target="_black"><img src="../static/images/opgg.png" width="200"></a>
 			<a href="https://playdata.io/" target="_black"><img src="../static/images/playdata.png" width="200"></a>
-			<a href="https://github.com/sujeong-jang-creator/JSJB_MiniProject" target="_black"><img src="../static/images/플젝깃허브.png" width="200"></a>
-			<a href="https://na.leagueoflegends.com/ko-kr/" target="_black"><img src="../static/images/공식홈페이지.png" width="200"></a>
+
+			<a href="https://github.com/sujeong-jang-creator/JSJB_MiniProject" target="_black">
+				<img src="../static/images/플젝깃허브.png" width="200"></a>
+			<a href="https://na.leagueoflegends.com/ko-kr/" target="_black">
+				<img src="../static/images/공식홈페이지.png" width="200"></a>
 		</aside>
 
 		<section class="primary">
 
-			<!-- <form action=""> -->
+			<div id="viewtest" style="display:block;">
+
 				<img src="../static/images/검정글씨로고.png" width="100"><br>
 
 				챔피언이름 : <input type="text" id="c_name"><br>
-				<button onclick="lolchamp()" alert="성공"><font color="blue"> 챔피언 번호로 검색</font></button>
+				<button onclick="lolchamp()" alert="성공">
+					<font color="blue"> 챔피언 번호로 검색</font>
+				</button>
 
 				<br><br><br>
-				<div id="demo_champ"></div>
-				<div id="demo_items"></div>
-				<div id="demo_runes"></div>
-				<div id="demo_spell"></div>
 
-			<!-- </form> -->
+				<div id="demo_id"></div>
+				<br>
+				<div id="demo_champ"></div>
+				<div id="demo1_image"></div>
+				<br>
+				<div id="demo_items"></div>
+				<div id="demo2_image"></div>
+				<br>
+				<div id="demo_runes"></div>
+				<div id="demo3_image"></div>
+				<br>
+				<div id="demo_spell"></div>
+				<div id="demo4_image"></div>
+				<div id="demo5_image"></div>
+
+
+				<br><br><br>
+
+			</div>
 		</section>
 
 		<!-- secondary-b -->
 		<aside class="secondary secondary-b">
 			<a href="https://github.com/dlwlsdudo1" target="_black"><img src="../static/images/진영.png" width="300"></a>
-			<a href="https://github.com/sujeong-jang-creator" target="_black"><img src="../static/images/수정.png" width="300"></a>
+			<a href="https://github.com/sujeong-jang-creator" target="_black"><img src="../static/images/수정.png"
+					width="300"></a>
 			<a href="https://github.com/rnaqpddl123" target="_black"><img src="../static/images/주영.png" width="300"></a>
 		</aside>
 		<!-- </div> -->
@@ -79,27 +92,41 @@
 		</footer>
 	</div>
 	<script>
-
-		function lolchamp() {
-			const xhttp = new XMLHttpRequest();
-			xhttp.onreadystatechange = function () {
-				if (this.readyState == 4 && this.status == 200) {  // 정상응답 완료 여부 검증
-					data = this.responseText;
-					console.log(data);
-					data = JSON.parse(data);
-					console.log(data);
-					console.log(data.champ);
-					document.getElementById("demo_champ").innerHTML = data.champ;
-					document.getElementById("demo_items").innerHTML = data.item;
-					document.getElementById("demo_runes").innerHTML = data.rune;
-					document.getElementById("demo_spell").innerHTML = data.spell;
-				}
-			};
-			xhttp.open("post", "lolcp");
-			xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-			queryString = "c_name=" + document.getElementById("c_name").value;
-			xhttp.send(queryString);
-
+		{
+			function lolchamp() {
+				const xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function () {
+					if (this.readyState == 4 && this.status == 200) {  // 정상응답 완료 여부 검증
+						data = this.responseText;
+						if (data == 12345) {
+							alert("잘못된 입력입니다. 다시 입력해 주세요.");
+						}
+						else if (data == 1234) {
+							alert("챔피언 번호는 155번 까지입니다.");
+						}
+						else if (data == 123456) {
+							alert("검색할정보를 입력해주세요.");
+						}
+						else {
+							data = JSON.parse(data);
+							document.getElementById("demo_champ").innerHTML = ("챔피언 이름 : " + data.champ);
+							document.getElementById("demo_items").innerHTML = ("아이템 이름 : " + data.item);
+							document.getElementById("demo_runes").innerHTML = ("룬 이름 : " + data.rune);
+							document.getElementById("demo_spell").innerHTML = ("스펠 이름 : " + data.spell);
+							document.getElementById("demo_id").innerHTML = ("챔피언 번호 : " + data.c_id);
+							document.getElementById("demo1_image").innerHTML = `<img src='static/champs_image/${data.c_id}.jfif' alt = "${data.champ}입니다" width = "200">`;
+							document.getElementById("demo2_image").innerHTML = `<img src='static/items_image/${data.i_id}.png' alt = "${data.item}입니다">`;
+							document.getElementById("demo3_image").innerHTML = `<img src='static/runes_image/${data.r_id}.png' alt = "${data.rune}입니다">`;
+							document.getElementById("demo4_image").innerHTML = `<img src='static/spell_image/${data.s_id}.png' alt = "${data.spell}입니다">`;
+							document.getElementById("demo5_image").innerHTML = `<img src='static/spell_image/${data.s_id2}.png' alt = "${data.spell2}입니다">`;
+						}
+					}
+				};
+				xhttp.open("post", "lolcp");
+				xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+				queryString = "c_name=" + document.getElementById("c_name").value;
+				xhttp.send(queryString);
+			}
 		}
 	</script>
 </body>
