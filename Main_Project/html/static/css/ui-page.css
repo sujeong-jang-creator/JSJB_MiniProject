@@ -6,8 +6,7 @@
 
 .primary {
 	padding: 2rem;
-	background: rgb(255, 255, 255);
-	height: 90%;
+	justify-self: space_between;
 }
 .secondary {
 	padding: 1rem;
@@ -19,7 +18,6 @@
 
 .secondary-b {
 	background: #1A3235;
-	/* background:url(../images/right_back.jpg); */
 	background-position: center;
 	background-size: 100% 100%;
 }

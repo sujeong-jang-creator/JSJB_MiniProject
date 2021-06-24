@@ -51,7 +51,7 @@
 
 				챔피언이름 : <input type="text" id="c_name"><br>
 				<button onclick="lolchamp()" alert="성공">
-					<font color="blue"> 챔피언 번호로 검색</font>
+					<font color="blue"> 챔피언 검색</font>
 				</button>
 
 				<br><br><br>
@@ -110,10 +110,10 @@
 						else {
 							data = JSON.parse(data);
 							document.getElementById("demo_champ").innerHTML = ("챔피언 이름 : " + data.champ);
-							document.getElementById("demo_items").innerHTML = ("아이템 이름 : " + data.item);
-							document.getElementById("demo_runes").innerHTML = ("룬 이름 : " + data.rune);
-							document.getElementById("demo_spell").innerHTML = ("스펠 이름 : " + data.spell);
-							document.getElementById("demo_id").innerHTML = ("챔피언 번호 : " + data.c_id);
+                            document.getElementById("demo_items").innerHTML = ("추천 1코어 아이템 : " + data.item);
+                            document.getElementById("demo_runes").innerHTML = ("추천 메인 룬 : " + data.rune);
+                            document.getElementById("demo_spell").innerHTML = ("추천 스펠 : " + data.spell);
+                            document.getElementById("demo_id").innerHTML = ("이 챔피언은" + data.c_id + "번째 챔피언 입니다");
 							document.getElementById("demo1_image").innerHTML = `<img src='static/champs_image/${data.c_id}.jfif' alt = "${data.champ}입니다" width = "200">`;
 							document.getElementById("demo2_image").innerHTML = `<img src='static/items_image/${data.i_id}.png' alt = "${data.item}입니다">`;
 							document.getElementById("demo3_image").innerHTML = `<img src='static/runes_image/${data.r_id}.png' alt = "${data.rune}입니다">`;

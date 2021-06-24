@@ -9,11 +9,11 @@
 
 .menu {
 	display: flex;
-	/* height: 70px; */
 }
 
 .primary {
 	text-align: center;
+	background: rgb(255, 255, 255)
 }
 
 .menu-item {
@@ -24,7 +24,6 @@
 }
 .menu-link {
 	display: block;
-	/* padding: 1em; */
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
@@ -32,11 +31,35 @@
 	text-align: center;
 }
 
+/* card list */
+.card-list {
+	justify-content:space-around;
+}
+.card-item {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+.card-image {
+	padding-bottom: 60%;
+	background-color: lightgray;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card-desc {
+	flex: 1 1 auto;
+	padding: 1em;
+	background: white;
+}
+
 @media (min-width: 600px) {
 	.card-list {
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0 -1rem;
+		justify-content:space-around;
 	}
 	.card-item {
 		width: 50%;
@@ -47,5 +70,6 @@
 @media (min-width: 1200px) {
 	.card-item {
 		width: 33.33333%;
+		justify-content:space-around;
 	}
 }
