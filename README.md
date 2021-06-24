@@ -659,9 +659,11 @@ button {
 <br>
 <p>- 느낀점 </p>
 &nbsp;&nbsp;: 처음에 시도한 것이 무조건 정답이 아니다. 틀에 박히지 않은 시선으로 계속 코드를 바꿔보자!</p>
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%BD%94%EB%93%9C%EC%88%98%EC%A0%95.png?raw=true" />
 </details>
 
-<br><br>
+
+<br>
 
 <details><summary>No_2</summary>
 <br>
@@ -670,33 +672,38 @@ button {
 <br>
 <p>- 해결 </p>
 &nbsp;&nbsp; : 공백을 지움.</p>
+<br>
 <p>- 느낀점 </p>
 &nbsp;&nbsp; : 처음에 시도한 것이 무조건 정답이 아니다. 틀에 박히지 않은 시선으로 계속 코드를 바꿔보자!</p>
 </details>
 
-<br><br>
+<br>
 	
 <details><summary>No_3</summary>
 <br>
 <p>- 내용 </p> 
 &nbsp;&nbsp; : 입력 할 데이터가 너무 많음 (table value 약 400개, image data 약 200개)</p>
+<br>
 <p>- 해결</p>
 &nbsp;&nbsp;: 각자 part를 분배하여 도란도란 수다를 떨며 입력했다. </p>
+<br>
 <p>- 느낀점 </p>
 &nbsp;&nbsp;: '데이터 자동화'는 정말 필요한 것이구나!</p>
 </details>
 
-<br><br>
+<br>
 	
 <details><summary>No_4</summary>
 <br>
 <p>- 내용 </p> 
 &nbsp;&nbsp;:  동기 방식으로 페이지 이동시 not found error. app.py 에서 html 연동을 거는 과정오류.  </p>
+<br>
 <p>- 해결 </p>
 &nbsp;&nbsp;: @app.route('/경로') 형식인데 flask 사용이 미숙해서 경로 설정을 잘못 함.</p>
+<br>
 <p>- 느낀점 </p> 
 &nbsp;&nbsp;: 리뷰를 잘하자! 이해를 못했다면 그냥 넘어가지 말고 꼭 알고 넘어가자!</p>
-<br>
+<br><br>
 <p> app.py </p>
 <img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/apppy%EC%98%A4%EB%A5%98.JPG?raw=true" />
 <br>
@@ -704,19 +711,25 @@ button {
 <img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/index%EC%98%A4%EB%A5%98.JPG?raw=true" />
 </details>
 
-<br><br>
+<br>
 	
 <details><summary>No_5</summary>
 <br>
 <p>- 내용</p>
 &nbsp;&nbsp;1. github branch 이용중 완전 거대한 conflict가 나서 멘탈이 나감.</p>
 &nbsp;&nbsp;2. css에 대한 감이 잡히지 않아서 사용하기 어려움.</p>
+<br>
 <p>- 해결</p> 
 &nbsp;&nbsp;1. 갓예진님께서 이전 파일을 최대한 복구해주심.</p>
 &nbsp;&nbsp;2. 성규님께서 css 기본 구조 템플릿을 빌려주며 css와 html구조에 대해 전반적인 설명을 해주셨음.</p>
 &nbsp;&nbsp;&nbsp;듣고 나니 3일 밤낮의 노가다를 뛰며 구조를 이해하게 됨.</p>
-<p>- 느낀점 : 똑똑한 사람들과 친하게 지내자! 인맥은 중요하다!</p>
-</details>
+<br>
+<p>- 느낀점 : 똑똑한 사람들과 친하게 지내자! 인맥은 중요하다!
+</details></details>
 
+<br><br>
 
-
+<h2>:shipit: 한줄평</h2>
+&nbsp;&nbsp;- 주영 : 컴퓨터는 정직하지만 프로그램은 정직하지 못하다.</p>
+&nbsp;&nbsp;- 진영 : 컴퓨터를 거짓말을 하지 않은다는 말은 '아빠 안잔다'라고 하는 것과 같다.</p>
+&nbsp;&nbsp;- 수정 : 두드려 맞은 아픔보다 코드가 뻥났는데 해결하지 못할때의 아픔이 훨씬 크다.</p>
