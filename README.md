@@ -619,5 +619,11 @@ button {
 
 </details></details>
 
-<h2>:ok_woman: 실행결과</p>
-<img src="" />
+<br>
+
+<!-- 실행결과--><!-- 실행결과--><!-- 실행결과--><!-- 실행결과--><!-- 실행결과-->
+<details><summary>:ok_woman: 실행결과</summary>
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%8B%A4%ED%96%891.JPG?raw=true"/>
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%8B%A4%ED%96%892.JPG?raw=true"/>
+<img src="https://github.com/sujeong-jang-creator/JSJB_MiniProject/blob/main/Main_Project/html/static/images/%EC%8B%A4%ED%96%893.JPG?raw=true"/>
+</details>
