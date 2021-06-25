@@ -13,6 +13,7 @@
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
+
         google.charts.load('current', { 'packages': ['corechart'] });
         google.charts.setOnLoadCallback(drawChart);
         function drawChart() {
@@ -24,6 +25,7 @@
                 ['피파온라인4', 4.95],
                 ['기타', 29.68]
             ]);
+
             var options = {
                 title: '한국 게임시장 점유율'
             };
@@ -77,6 +79,7 @@
                 frameborder="0"></iframe><br><br><br><br><br>
 
             <h1 text-align="center">패치 노트</h1>
+            <br><br>
             <div align="center">
                 <ul class="card-list">
                     <li class="card-item">
@@ -99,8 +102,8 @@
                 </ul>
 
                 <h1 text-align="center">한국 게임시장 점유율</h1>
-                <div id="piechart" style="width: 700px;"></div>
 
+                <div id="piechart" style="width: 700px;"></div>
             </div>
         </section>
 
